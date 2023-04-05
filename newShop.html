@@ -10,22 +10,142 @@
     </header>
     <nav>
     </nav>
-    <main>
-      <form class="new_Acc" action="index.html" method="post">
-        <label for="user">Benutzername</label><br>
-        <input type="text" id="user"><br>
-        <label for="email">Email</label><br>
-        <input type="text" id="email"><br>
-        <label for="password">Passwort</label><br>
-        <input type="text" id="password">
-        <br><br>
+    <section>
+      <h1>Hofladen veröffentlichen</h1>
+      <hr>
+      <form class="new_Shop1" action="index.html" method="post">
+        <h3>Schritt 1 von 3: Adresse</h3>
+        <div>
+          <label for="salutation">Anrede</label><br>
+          <input type="text" id="salutation">
+        </div>
+        <div class="row">
+          <label for="vorname">Vorname</label><br>
+          <input type="text" id="vorname">
+        </div>
+        <div class="row">
+          <label for="nachname">Nachname</label><br>
+          <input type="text" id="nachname">
+        </div>
+        <div>
+          <label for="street">Straße und Hausnummer</label><br>
+          <input type="text" id="street" class="big">
+        </div>
+        <div class="row">
+          <label for="plz">PLZ</label><br>
+          <input type="text" id="plz">
+        </div>
+        <div class="row">
+          <label for="stadt">Stadt</label><br>
+          <input type="text" id="stadt">
+        </div>
+        <div>
+          <label for="country">Land</label><br>
+          <input type="text" id="country" class="big">
+        </div>
+      </form>
+      <form class="new_Shop2" action="index.html" method="post">
+        <h3>Schritt 2 von 3: Beschreibung</h3>
+        <div>
+          <label for="company">Name vom Hofladen</label><br>
+          <input type="text" id="company">
+        </div>
+        <caption>Produkte</caption>
+        <div class="box">
+          <table>
+            <tr>
+              <td>
+                <input type="radio" id="flowers">
+                <label for="flowers">Blumen</label>
+              </td>
+              <td>
+                <input type="radio" id="baked">
+                <label for="baked">Brot und Backwaren</label>
+              </td>
+              <td>
+                <input type="radio" id="egg">
+                <label for="egg">Eier</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" id="fish">
+                <label class="gap" for="fish">Fisch</label>
+              </td>
+              <td>
+                <input type="radio" id="meat">
+                <label for="meat">Fleisch und Wurst</label>
+              </td>
+              <td>
+                <input type="radio" id="bird">
+                <label for="bird">Geflügel</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" id="vegetables">
+                <label class="gap" for="vegetables">Gemüse</label>
+              </td>
+              <td>
+                <input type="radio" id="beverages">
+                <label for="beverages">Getränke</label>
+              </td>
+              <td>
+                <input type="radio" id="cheese">
+                <label for="cheese">Käse</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" id="milk">
+                <label class="gap" for="milk">Milchprodukte</label>
+              </td>
+              <td>
+                <input type="radio" id="fruit">
+                <label for="fruit">Obst</label>
+              </td>
+              <td>
+                <input type="radio" id="tree">
+                <label for="tree">Tannenbäume</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" id="pet">
+                <label class="gap" for="pet">Tierfutter</label>
+              </td>
+              <td>
+                <input type="radio" id="sweet">
+                <label for="sweet">Süße Brotaufstriche</label>
+              </td>
+              <td>
+                <input type="radio" id="flour">
+                <label for="flour">Teigwaren</label>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </form>
+      <form class="new_Shop3" action="index.html" method="post">
+        <div class="">
+          <label for="description">Beschreibung</label><br>
+          <input type="text" id="description">
+        </div>
+      </form>
+      <form class="new_Shop4" action="index.html" method="post">
+        <h3>Schritt 3 von 3: Bilder hinzufügen</h3>
+        <input type="button" id="browse" value="Datei auswählen">
+        <label id="warning1" for="browse">Die Dateien müssen kleiner als 2MB sein.</label><br>
+        <input type="text" readonly id="uploaded"><br>
+      </form>
+      <div class="do">
         <button type="submit" class="button">
           <img id="abort" src="pictures/Screenshot 2023-04-04 190438.png"/>
         </button>
         <button type="submit" class="button">
           <img id="confirm" src="pictures/confirm.png"/>
         </button>
-      </form>
-    </main>
+      </div>
+    </section>
   </body>
 </html>

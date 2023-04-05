@@ -5,8 +5,57 @@
   cursor: pointer;
   background-color: none;
   display: inline-block;
-  gap: 150rem;
-
+}
+.row {
+  display: inline-block;
+  width: 11rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.right {
+  float: right;
+}
+.left {
+  displ
+}
+.new_Shop1 {
+  text-align: left;
+  float: left;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+.new_Shop2 {
+  text-align: left;
+  float: left;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+.new_Shop3 {
+  display: grid;
+  margin-left: 5rem;
+  clear: both;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.new_Shop4 {
+  float: left;
+  margin-left: 5rem;
+}
+.big {
+  min-width: 20rem;
+}
+.box {
+  border: 1px solid black;
+  border-radius: 10px;
+  min-width: 45rem;
+  height: 10rem;
+  padding: 2%;
+  margin-bottom: 2rem;
+  background-image: url("pictures/b1.jpg");
+}
+.do {
+  clear: both;
+  margin-left: 10rem;
 }
 #abort{
   max-width: 40px;
@@ -15,4 +64,31 @@
 #confirm{
   max-width: 40px;
   height: 40px;
+}
+#description{
+  min-width: 90%;
+  height: 5rem;
+  margin-bottom: 3rem;
+}
+#company {
+  margin-bottom: 1rem;
+}
+#uploaded {
+  clear: left;
+  width: 30rem;
+  height: 7rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+#warning1{
+  font-size: 7pt;
+}
+h1 {
+  margin-left: 5rem;
+}
+table {
+  width: 100%;
+  height: 10rem;
+}
+form {
 }
